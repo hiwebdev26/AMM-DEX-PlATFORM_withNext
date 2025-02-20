@@ -1,7 +1,5 @@
-'use client';
-
-import Button from "@/components/Button";
-import InputStyle from "@/components/InputStyle";
+import Button from "@/app/components/Button";
+import InputStyle from "@/app/components/InputStyle";
 
 
 export default function Swap() {

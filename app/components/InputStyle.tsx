@@ -1,4 +1,7 @@
-export default function InputStyle(props) {
+export default function InputStyle(props: {
+  tokenName: string,
+  symbol: string 
+}) {
     return (
       <div>
         <label htmlFor="price" className="block text-sm/6 font-medium text-gray-900">

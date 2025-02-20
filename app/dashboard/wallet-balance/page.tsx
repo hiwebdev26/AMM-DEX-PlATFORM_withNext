@@ -1,5 +1,5 @@
 'use client';
-import { WalletBallance } from "@/components/walletBalance";
+import WalletBallance from "@/app/components/walletBalance";
 import { useAccount } from "wagmi";
 
 export default function WalletBallancePage() {

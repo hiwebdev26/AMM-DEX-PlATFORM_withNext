@@ -2,13 +2,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import WagmiProviderComp from "../lib/wagmi-provider";
+import WagmiProviderComp from "@/app/lib/wagmi-provider";
 import { headers } from "next/headers";
 import { cookieToInitialState } from "wagmi";
-import { config } from "../lib/config";
+import { config } from "@/app/lib/config";
 import { ThemeProvider } from "next-themes";
-import Home from "./page";
-import { Navbar } from "@/components/navbar";
+import { Navbar } from '@/app/components/Navbar';
  
 const inter = Inter({ subsets: ["latin"] });
  

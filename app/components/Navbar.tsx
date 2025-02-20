@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
@@ -13,9 +14,9 @@ interface LinkProps {
 export const Navbar = () => {
     const navigation: LinkProps[] = [
         { text: "Add Liquidity", href: "/" },
-        { text: "Swap", href: "/swap" },
-        { text: "Pool", href: "/pool" },
-        { text: "Wallet Balance", href: "/wallet-balance" },
+        { text: "Swap", href: "/dashboard/swap" },
+        { text: "Pool", href: "/dashboard/pool" },
+        { text: "Wallet Balance", href: "/dashboard/wallet-balance" },
     ];
 
 

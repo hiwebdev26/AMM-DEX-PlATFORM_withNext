@@ -1,8 +1,6 @@
-'use client';
-
-import Button from "@/components/Button";
-import InputStyle from "@/components/InputStyle";
-import RadioGroup from "@/components/RadioGroup";
+import Button from "@/app/components/Button";
+import InputStyle from "@/app/components/InputStyle";
+import RadioGroup from "@/app/components/RadioGroup";
 
 
 export default function Home() {
